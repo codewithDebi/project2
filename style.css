@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+section{
+    background-color:grey ;
+    margin:1.25rem 1.25rem;
+    padding-left: 1.25rem;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    height: 3.125rem;  
+    
+}
+
+ nav a{
+    color: white;
+    margin: 0 1.875rem; 
+    text-decoration: none;
+   
+}
+nav h1{
+    color: rgb(247, 84, 35);
+    margin-left: 2.5rem;
+    font-size: xx-large;
+  
+}
+.search1{
+    margin-right: 5rem;
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+input[type="search"]{
+    border: 2px orangered;
+    height: 1.5625rem;
+    background-color: grey;
+}
+button{
+    background-color: orangered;
+    width: 3rem;
+    border: none;
+}
+::placeholder{
+    color: white;
+}
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 5rem 0 2.5rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    margin-bottom: 1.25rem;
+    width: 15.625rem;
+    height: 21.875rem;
+    padding: 1.5625rem;
+}
+#join{
+    color: black;
+    margin: 20px 0;
+    width: 3.75rem;
+    height: 1.25rem;
+}
+input[type="email"],input[type="password"]{
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom:2px solid orangered;
+    height: 1.5625rem;
+}
+#login::placeholder,span,#b2{
+    color: orangered;
+}
+#log{
+    background-color:orangered ;
+    height: 25px;
+    color: black;
+}
+#login::placeholder{
+    text-align: center;
+}
+h3,#b2{
+    margin: 0 auto;
+}
+h3{
+   font-size: x-large;
+}
+#b2{ 
+  font-size: xx-large;
+}
